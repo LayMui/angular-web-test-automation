@@ -1,4 +1,4 @@
-# Serenity/JS Cognitive Studio Test Framework
+# Serenity/JS Test Framework
 
 ## Prerequisites
 
@@ -16,9 +16,9 @@ npm test                # executes the example tests and generates the report un
 ```
 
 ## Note to run on IE11 browser
-Downgrade the protractor version to 5.0.0
-Disable all security features on IE11
-Start the Web Driver Manager (reference: https://www.npmjs.com/package/webdriver-manager)
+- Downgrade the protractor version to 5.0.0
+- Disable all security features on IE11
+- Start the Web Driver Manager (reference: https://www.npmjs.com/package/webdriver-manager)
 ```
 webdriver-manager start
 npm run test:IE11
