@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [ "es6" ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false,
+    "strict": true,
+    "outDir": "./dist",                        /* Redirect output structure to the directory. */
+    "rootDir": "./src",   
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "src/features/**/*.ts",
+  ],
+
+  "exclude": [
+    "node_modules"
+
+  ]
+}
